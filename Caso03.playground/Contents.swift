@@ -1,5 +1,3 @@
-
-
 // Clase Base
 class Persona {
     var nombre: String
@@ -11,7 +9,7 @@ class Persona {
     }
 
     func presentarse() {
-        print("👋 Hola, soy \(nombre) y tengo \(edad) años.")
+        print(" Hola, soy \(nombre) y tengo \(edad) años.")
     }
 }
 
@@ -25,7 +23,7 @@ class Estudiante: Persona {
     }
 
     override func presentarse() {
-        print("👨‍🎓 Soy el estudiante \(nombre), tengo \(edad) años y estudio \(curso).")
+        print(" Soy el estudiante \(nombre), tengo \(edad) años y estudio \(curso).")
     }
 }
 
@@ -39,7 +37,7 @@ class Profesor: Persona {
     }
 
     override func presentarse() {
-        print("👨‍🏫 Soy el profesor \(nombre), tengo \(edad) años y enseño \(especialidad).")
+        print("Soy el profesor \(nombre), tengo \(edad) años y enseño \(especialidad).")
     }
 }
 
